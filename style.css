@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-container {
+  padding: 0 250px;
+  background-color: #1f2937;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-link {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.link-container {
+  list-style-type: none;
+  display: flex;
+  font-size: 18px;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.link {
+  color: #efe7eb;
+}
+
+.hero-container {
+  display: flex;
+  padding: 200px 0;
+  gap: 50px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #bdbec2;
+}
+
+.sign-up-btn {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.odin-hero-image {
+  height: 300px;
+  width: 2000px;
+}
+
+.second-container {
+  margin-top: 50px;
+  padding: 0 250px;
+}
+
+.second-container > h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 120px;
+}
+
+.odin-secondary-image {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 25px;
+}
+
+.description {
+  width: 200px;
+  text-align: center;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 150px 340px 100px 340px;
+}
+
+.quote{
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.signature{
+  text-align: right;
+  font-size: 36px;
+}
+
+.cta-container{
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  margin: 100px 250px;
+  border-radius: 12px;
+  color: #f9faf8;
+}
+
+.second-btn{
+  border: 2px solid #f9faf8;
+}
+
+.cta-text{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sign-up-text{
+  font-size: 20px;
+  color: #d1d2d4;
+}
+
+footer{
+  background-color: #1f2937;
+  padding: 50px;
+  color: #bdbec2;
+  text-align: center;
+  font-size: 20px;
+}
